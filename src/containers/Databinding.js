@@ -1,7 +1,7 @@
 import React, { usestate } from "react";
 
 function Databinding() {
-  const [data, setdata] = usestate({
+  const [data, setdata] = useState({
     name: "Mohan",
     age: 25
   })
