@@ -1,4 +1,4 @@
-import React, { usestate } from "react";
+import React, { useState } from "react";
 
 function Databinding() {
   const [data, setdata] = useState({
